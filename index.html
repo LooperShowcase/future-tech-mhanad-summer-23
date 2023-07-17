@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     
-        <h1 id="number"></h1>
-
-        <div>Teachable Machine Image Model</div>
-
+        
+    <div  class="container center" >
+<h3> Teachable Machine Image Model</h3>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
@@ -72,7 +72,10 @@
 
 
 
-        <div  class="container center" >
+       
+            <h1 id="number"></h1>
+
+       
             <h1> The Hulk </h1>
             <button type="button" onclick="init()">Start</button>
             <form onsubmit="event.preventDefault();
